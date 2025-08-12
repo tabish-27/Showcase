@@ -16,15 +16,21 @@ const Skills = () => {
       color: "from-blue-500 to-blue-600"
     },
     {
+      title: "Tools/Platforms",
+      icon: <FaTools className="text-xl" />,
+      skills: ["Git/GitHub", "VS Code", "Vercel", "Vite", "Parcel", "Netlify", "Figma", "Postman"],
+      color: "from-indigo-500 to-indigo-600"
+    },
+    {
       title: "Backend",
       icon: <FaServer className="text-xl" />,
       skills: ["REST APIs", "Authentication", "GraphQL"],
       color: "from-green-500 to-green-600"
     },
-      {
-      title: "Tools/Platforms",
-      icon: <FaTools className="text-xl" />,
-      skills: ["Git/GitHub", "VS Code", "Vercel", "Vite", "Parcel", "Netlify", "Figma", "Postman"],
+    {
+      title: "Core Concepts",
+      icon: <FaCode className="text-xl" />,
+      skills: ["Data Structures & Algorithms", "OOPs", "DBMS", "Operating Systems", "Computer Network"],
       color: "from-indigo-500 to-indigo-600"
     },
     {
@@ -33,13 +39,6 @@ const Skills = () => {
       skills: ["MongoDB", "Firebase", "MySQL"],
       color: "from-yellow-500 to-yellow-600"
     },
-
-    {
-      title: "Core Concepts",
-      icon: <FaCode className="text-xl" />,
-      skills: ["Data Structures & Algorithms", "OOPs", "DBMS", "Operating Systems", "Computer Network"],
-      color: "from-indigo-500 to-indigo-600"
-    }
   ];
 
   return (
