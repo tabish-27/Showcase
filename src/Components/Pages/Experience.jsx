@@ -100,7 +100,7 @@ const Experience = () => {
                 className="text-blue-600 dark:text-purple-400 mb-4 font-medium"
                 whileHover={{ x: 3 }}
               >
-                3+ Complex Full-Stack Applications
+                3+ Complex Big Applications
               </motion.p>
               
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
