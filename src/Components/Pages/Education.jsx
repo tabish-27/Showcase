@@ -7,7 +7,6 @@ const Education = () => {
     "Operating Systems",
     "Database Management",
     "Object Oriented Programming",
-    "Computer Networking",
   ];
 
   return (

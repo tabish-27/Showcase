@@ -4,41 +4,42 @@ import { FaCode, FaServer, FaDatabase, FaTools, FaLaptopCode } from "react-icons
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming",
-      icon: <FaCode className="text-xl" />,
-      skills: ["JavaScript", "C", "C++"],
-      color: "from-blue-500 to-blue-600"
-    },
-    {
       title: "Frontend",
       icon: <FaLaptopCode className="text-xl" />,
       skills: ["React.js", "Tailwind CSS", "CSS3", "HTML5", "Material-UI", "Redux", "Git", "Bootstrap", "TypeScript", "Next.js"],
       color: "from-purple-500 to-purple-600"
     },
     {
+      title: "Programming",
+      icon: <FaCode className="text-xl" />,
+      skills: ["JavaScript", "C++", "C", "TypeScript"],
+      color: "from-blue-500 to-blue-600"
+    },
+    {
       title: "Backend",
       icon: <FaServer className="text-xl" />,
-      skills: ["REST APIs"],
+      skills: ["REST APIs", "Authentication", "GraphQL"],
       color: "from-green-500 to-green-600"
     },
-    // {
-    //   title: "Databases",
-    //   icon: <FaDatabase className="text-xl" />,
-    //   skills: ["MySQL"],
-    //   color: "from-yellow-500 to-yellow-600"
-    // },
-    {
+      {
       title: "Tools/Platforms",
       icon: <FaTools className="text-xl" />,
-      skills: ["Git/GitHub", "VS Code", "Vercel", "Netlify", "Figma", "Postman"],
+      skills: ["Git/GitHub", "VS Code", "Vercel", "Vite", "Parcel", "Netlify", "Figma", "Postman"],
       color: "from-indigo-500 to-indigo-600"
     },
-    // {
-    //   title: "Core Concepts",
-    //   icon: <FaCode className="text-xl" />,
-    //   skills: ["Data Structures & Algorithms", "OOPs", "DBMS", "Operating Systems"],
-    //   color: "from-indigo-500 to-indigo-600"
-    // }
+    {
+      title: "Databases",
+      icon: <FaDatabase className="text-xl" />,
+      skills: ["MongoDB", "Firebase", "MySQL"],
+      color: "from-yellow-500 to-yellow-600"
+    },
+
+    {
+      title: "Core Concepts",
+      icon: <FaCode className="text-xl" />,
+      skills: ["Data Structures & Algorithms", "OOPs", "DBMS", "Operating Systems", "Computer Network"],
+      color: "from-indigo-500 to-indigo-600"
+    }
   ];
 
   return (
