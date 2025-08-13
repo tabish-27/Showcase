@@ -132,9 +132,9 @@ const Home = () => {
           </div>
 
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-lg mx-auto md:mx-0">
-            Transforming ideas into elegant web solutions with clean code and
-            intuitive design. I specialize in building fast, responsive
-            applications that deliver seamless user experiences.
+            Transforming ideas into elegant frontend solutions with clean code and
+            intuitive UI design. I specialize in building fast, responsive web
+            interfaces that deliver seamless and engaging user experiences.
           </p>
 
           <div className="flex gap-4 justify-center md:justify-start">

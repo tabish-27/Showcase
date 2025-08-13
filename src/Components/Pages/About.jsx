@@ -23,7 +23,7 @@ const About = () => {
             ease: "easeInOut",
           }}
         />
-        
+
         <motion.div
           className="absolute bottom-1/3 right-20 w-24 h-24 rounded-full bg-indigo-200 dark:bg-purple-800 opacity-20"
           animate={{
@@ -34,16 +34,13 @@ const About = () => {
             duration: 10,
             repeat: Infinity,
             ease: "easeInOut",
-            delay: 1
+            delay: 1,
           }}
         />
 
         {/* Animated grid pattern */}
         <div className="absolute inset-0 opacity-10 dark:opacity-5">
-          <svg
-            className="w-full h-full"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+          <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern
                 id="grid-pattern"
@@ -106,7 +103,7 @@ const About = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <motion.h2 
+            <motion.h2
               className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white mb-6"
               whileHover={{ scale: 1.02 }}
             >
@@ -114,15 +111,33 @@ const About = () => {
               <span className="text-blue-600 dark:text-purple-400">Me</span>
               <div className="h-1 w-28 bg-blue-500 dark:bg-purple-500 mt-4"></div>
             </motion.h2>
-            
+
             <div className="flex flex-wrap gap-4 mt-8">
               {[
-                { icon: <FaReact className="text-blue-500 text-xl" />, text: "React" },
-                { icon: <SiJavascript className="text-yellow-500 text-xl" />, text: "JavaScript" },
-                { icon: <SiTailwindcss className="text-cyan-400 text-xl" />, text: "Tailwind CSS" },
-                { icon: <SiRedux className="text-purple-500 text-xl" />, text: "Redux" },
-                { icon: <FaCss3Alt className="text-blue-600 text-xl" />, text: "CSS" },
-                { icon: <FaHtml5 className="text-orange-500 text-xl" />, text: "HTML" },
+                {
+                  icon: <FaReact className="text-blue-500 text-xl" />,
+                  text: "React",
+                },
+                {
+                  icon: <SiJavascript className="text-yellow-500 text-xl" />,
+                  text: "JavaScript",
+                },
+                {
+                  icon: <SiTailwindcss className="text-cyan-400 text-xl" />,
+                  text: "Tailwind CSS",
+                },
+                {
+                  icon: <SiRedux className="text-purple-500 text-xl" />,
+                  text: "Redux",
+                },
+                {
+                  icon: <FaCss3Alt className="text-blue-600 text-xl" />,
+                  text: "CSS",
+                },
+                {
+                  icon: <FaHtml5 className="text-orange-500 text-xl" />,
+                  text: "HTML",
+                },
               ].map((item, index) => (
                 <motion.div
                   key={index}
@@ -148,17 +163,19 @@ const About = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <motion.p 
+            <motion.p
               className="text-lg leading-relaxed"
               whileHover={{ scale: 1.01 }}
             >
               <span className="text-2xl font-bold text-blue-600 dark:text-purple-400">
                 Hey there! 👋
               </span>{" "}
-                I'm Tabish Javed — a passionate frontend developer dedicated to creating intuitive digital experiences with clean UI and efficient logic.
+              I'm Tabish Javed — a passionate frontend developer dedicated to
+              creating intuitive digital experiences with clean UI and efficient
+              logic.
             </motion.p>
 
-            <motion.p 
+            <motion.p
               className="text-lg leading-relaxed"
               whileHover={{ scale: 1.01 }}
             >
@@ -166,12 +183,13 @@ const About = () => {
               <span className="font-semibold text-blue-600 dark:text-purple-400">
                 1+ year
               </span>{" "}
-              of hands-on experience building frontend of the applications, I
-              specialize in turning complex challenges into scalable,
-              user-friendly solutions using modern JavaScript technologies.
+              of hands-on experience crafting responsive and engaging user
+              interfaces, I excel at transforming complex requirements into
+              scalable, user-friendly solutions using modern frontend
+              technologies like React.js, Tailwind CSS, and JavaScript (ES6+).
             </motion.p>
 
-            <motion.div 
+            <motion.div
               className="relative bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border-l-4 border-blue-500 dark:border-purple-500"
               whileHover={{ y: -3 }}
             >
@@ -184,25 +202,32 @@ const About = () => {
               </motion.div>
               <p className="text-lg leading-relaxed">
                 When I’m not building apps, I’m exploring{" "}
-                <span className="font-semibold">new technologies</span>, learning{" "}
-                <span className="font-semibold">better development practices</span>, and continuously{" "}
-                <span className="font-semibold">improving my technical knowledge</span>.
+                <span className="font-semibold">new technologies</span>,
+                learning{" "}
+                <span className="font-semibold">
+                  better development practices
+                </span>
+                , and continuously{" "}
+                <span className="font-semibold">
+                  improving my technical knowledge
+                </span>
+                .
               </p>
-
             </motion.div>
 
-            <motion.p 
+            <motion.p
               className="text-lg leading-relaxed"
               whileHover={{ scale: 1.01 }}
             >
               My toolkit includes{" "}
               <span className="font-semibold">
-                React.js, JavaScript, Tailwind CSS, CSS, HTML, Redux, Material-UI, Bootstrap, TypeScript
+                React.js, JavaScript, Tailwind CSS, CSS, HTML, Redux,
+                Material-UI, Bootstrap, TypeScript
               </span>{" "}
               — technologies I use daily to bring ideas to life.
             </motion.p>
 
-            <motion.p 
+            <motion.p
               className="text-lg leading-relaxed"
               whileHover={{ scale: 1.01 }}
             >
