@@ -166,7 +166,7 @@ const About = () => {
               <span className="font-semibold text-blue-600 dark:text-purple-400">
                 1+ year
               </span>{" "}
-              of hands-on experience building full-stack applications, I
+              of hands-on experience building frontend of the applications, I
               specialize in turning complex challenges into scalable,
               user-friendly solutions using modern JavaScript technologies.
             </motion.p>
@@ -197,7 +197,7 @@ const About = () => {
             >
               My toolkit includes{" "}
               <span className="font-semibold">
-                JavaScript, React, Node.js, and Tailwind CSS
+                React.js, JavaScript, Tailwind CSS, CSS, HTML, Redux, Material-UI, Bootstrap, TypeScript
               </span>{" "}
               — technologies I use daily to bring ideas to life.
             </motion.p>

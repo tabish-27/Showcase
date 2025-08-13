@@ -105,10 +105,10 @@ const Experience = () => {
               
               <ul className="space-y-3 text-gray-700 dark:text-gray-300">
                 {[
-                  "Developed comprehensive full-stack applications using React.js, Node.js, and modern web technologies",
+                  "Developed comprehensive frontend of the applications using React.js, and modern web technologies",
                   "Built responsive user interfaces with Tailwind CSS and implemented smooth animations using Framer Motion",
                   "Integrated RESTful APIs and implemented user authentication and authorization systems",
-                  "Deployed applications on platforms like Vercel and Netlify with proper CI/CD pipelines",
+                  "Deployed applications on platforms like Vercel and Netlify",
                   "Collaborated with teams using Git/GitHub for version control and project management"
                 ].map((item, index) => (
                   <motion.li
