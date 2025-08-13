@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaCode } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss } from "react-icons/si";
+import { FaReact, FaCss3Alt, FaHtml5, FaCode } from "react-icons/fa";
+import { SiJavascript, SiTailwindcss, SiRedux } from "react-icons/si";
 
 const About = () => {
   return (
@@ -117,10 +117,12 @@ const About = () => {
             
             <div className="flex flex-wrap gap-4 mt-8">
               {[
-                { icon: <SiJavascript className="text-yellow-500 text-xl" />, text: "JavaScript" },
                 { icon: <FaReact className="text-blue-500 text-xl" />, text: "React" },
-                { icon: <FaNodeJs className="text-green-500 text-xl" />, text: "Node.js" },
+                { icon: <SiJavascript className="text-yellow-500 text-xl" />, text: "JavaScript" },
                 { icon: <SiTailwindcss className="text-cyan-400 text-xl" />, text: "Tailwind CSS" },
+                { icon: <SiRedux className="text-purple-500 text-xl" />, text: "Redux" },
+                { icon: <FaCss3Alt className="text-blue-600 text-xl" />, text: "CSS" },
+                { icon: <FaHtml5 className="text-orange-500 text-xl" />, text: "HTML" },
               ].map((item, index) => (
                 <motion.div
                   key={index}

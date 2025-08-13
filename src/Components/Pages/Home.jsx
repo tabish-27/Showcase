@@ -1,31 +1,41 @@
 import { useEffect, useRef, useState } from "react";
 import profilePic from "../../assets/myprofile.pic.jpg";
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaJs } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss } from "react-icons/si";
+import { FaReact, FaJs, FaCss3Alt, FaHtml5, FaCode } from "react-icons/fa";
+import { SiTailwindcss, SiRedux } from "react-icons/si";
 
 const Home = () => {
   const imageRef = useRef(null);
   const [currentTech, setCurrentTech] = useState(null);
 
   const techStack = [
-    { icon: <FaReact className="text-blue-500" size={28} />, name: "React" },
+    {
+      icon: <FaReact className="text-blue-500" size={28} />,
+      name: "React",
+    },
     {
       icon: <FaJs className="text-yellow-500" size={28} />,
       name: "JavaScript",
     },
     {
-      icon: <FaNodeJs className="text-green-500" size={28} />,
-      name: "Node.js",
+      icon: <SiTailwindcss className="text-cyan-400" size={28} />,
+      name: "Tailwind CSS",
     },
     {
-      icon: <SiTailwindcss className="text-cyan-400" size={28} />,
-      name: "Tailwind",
+      icon: <SiRedux className="text-purple-500" size={28} />,
+      name: "Redux",
+    },
+    {
+      icon: <FaCss3Alt className="text-blue-600" size={28} />,
+      name: "CSS",
+    },
+    {
+      icon: <FaHtml5 className="text-orange-500" size={28} />,
+      name: "HTML",
     },
   ];
 
   useEffect(() => {
-
     const animateImage = () => {
       if (imageRef.current) {
         imageRef.current.style.transform = `translateY(${
